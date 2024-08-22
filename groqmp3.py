@@ -18,7 +18,7 @@ chat_completion = client.chat.completions.create(
             "content": question,
         }
     ],
-    model="llama3-8b-8192",
+    model="llama3-8b-8192", #model version might need to be changed depending on when u are seeing this
 )
 
 response = chat_completion.choices[0].message.content
