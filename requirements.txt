@@ -1,1 +1,1 @@
-pip install groq pip install gTTS
+pip install groq gTTS
