@@ -31,7 +31,7 @@ while True:
     conversation_history.append({"role": "assistant", "content": response})
     
     # filepath HERE
-    file_path = f"filepath\\{counter}audio.mp3" 
+    file_path = f"{counter}audio.mp3" 
     counter += 1
     
     tts = gTTS(response)
